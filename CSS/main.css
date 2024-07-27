@@ -1,0 +1,48 @@
+/* Estilização para garantir que os itens da navbar estejam em linha */
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Estilização para os links da navbar */
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+/* Estilização para os tabs dentro do modal */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-radius: 0.25rem 0.25rem 0 0;
+    color: #555;
+    padding: 10px;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #ddd;
+}
+
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* Estilização dos formulários */
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
